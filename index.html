@@ -79,8 +79,7 @@
 
 
       <!-- places section-->
-
-      <section class="places pt-5 mt-5">
+      <section class="places pt-5 pb-5 mt-5 text-center position-relative">
           <div class="placeUpperSection">
             <h1 class="text-uppercase text-center display-5 fw-bolder">let´ s go</h1>
             <p class="text-center fs-4 w-50 m-auto pt-4 pb-5 fw-medium lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
@@ -90,9 +89,9 @@
           <div class="cardsContainer container px-4 pb-5">
               <div class="row">
                 <div class="col-md-4 col d-flex justify-content-center">
-                  <div class="card rounded-0" style="width: 18rem;">
+                  <div class="card rounded-0 " style="width: 18rem;">
                     <img src="./public/assets/images/card1.png" class="card-img-top rounded-0" alt="cardImage">
-                    <div class="card-body py-5">
+                    <div class="card-body py-5 text-start">
                       <h4 class="card-title fw-bold text-white card-opacity">Lorem ipsum</h4>
                       <p class="card-text text-white card-opacity">Lorem ipsum dolor sit amet, 
                         consectetur  adipisicing...
@@ -103,7 +102,7 @@
                 <div class="col-md-4 col d-flex justify-content-center">
                   <div class="card rounded-0" style="width: 18rem;">
                     <img src="./public/assets/images/card2.png" class="card-img-top rounded-0" alt="cardImage">
-                    <div class="card-body py-5">
+                    <div class="card-body py-5 text-start">
                       <h4 class="card-title fw-bold text-white card-opacity">Lorem ipsum</h4>
                       <p class="card-text text-white card-opacity">Lorem ipsum dolor sit amet, 
                         consectetur  adipisicing...
@@ -116,7 +115,7 @@
                 <div class="col-md-4 col d-flex justify-content-center">
                   <div class="card rounded-0" style="width: 18rem;">
                     <img src="./public/assets/images/card3.png" class="card-img-top rounded-0" alt="cardImage">
-                    <div class="card-body py-5">
+                    <div class="card-body py-5 text-start">
                       <h4 class="card-title fw-bold text-white card-opacity">Lorem ipsum</h4>
                       <p class="card-text text-white card-opacity">Lorem ipsum dolor sit amet, 
                         consectetur  adipisicing...
@@ -126,11 +125,77 @@
                 </div>
               </div>
           </div>
+
+          <button class="placesReadMore text-uppercase btn py-3"><h5 class="fw-bolder mb-0 text-white">show more</h5></button>
+
+
+          <div class="shadowImage position-absolute w-50">
+            <img src="./public/assets/images/Shadow.png" alt="shadowImage" class="w-100">
+          </div>
       </section>
+      <!-- places section end -->
 
 
+      <!-- offers section -->
+      <section class="offers pt-5 mt-5 pb-5" >
+        <!-- row-1 -->
+        <div class="row g-0">
+          <div class="col-md-6 col-12">
+            <div class="offersImageContainer w-100">
+              <img src="./public/assets/images/discountBg.png" alt="discountImage" class="w-100">
+            </div>
+          </div>
+          <div class="col-md-6 col-126 discountContainer">
+            <div class="discountContainerContent text-white">
+              <div class="contentHeading">
+                <h1 class="display-5 fw-bolder card-opacity">Discount up to</h1>
+                <h1 class="display-5 fw-bolder card-opacity">50% All Excursions</h1>
+              </div>
+              <p class="w-75 fs-4 pt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
 
+              <button class="discountReadMore text-uppercase btn text-white fs-4 fw-bold mt-4">read more</button>
+            </div>
+          </div>
+        </div>
 
+        <!-- row-2 -->
+        <div class="row g-0">
+          <div class="col-md-6 col-12 offerContainer">
+            <div class="offerContainerContent text-white">
+              <div class="contentHeading">
+                <h1 class="display-5 fw-bolder card-opacity">January’s Promo:</h1>
+                <h1 class="display-5 fw-bolder card-opacity">Buy 1 Get 1 Free!</h1>
+              </div>
+              <p class="fs-4 pt-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat</p>
+
+              <button class="discountReadMore text-uppercase btn text-white fs-5 fw-bold mt-4">read more</button>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-12">
+            <div class="offersImageContainer w-100">
+              <img src="./public/assets/images/offerBg.png" alt="discountImage" class="w-100">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- offers section -->
+
+      <!-- hiking -->
+      <section class="hiking">
+        <h1 class="display-5 fw-medium text-center text-white">Hiking in the mountains</h1>
+        <p class="fs-4 pt-4 m-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis </p>
+            
+      </section>
+      <!-- hiking section end -->
+
+      <!-- explore world section -->
+      <section class="explore pe-5">
+        <div class="exploreHeadings text-uppercase text-end pe-5">
+          <h1 class="fw-bolder display-3 fst-italic heading1">explore</h1>
+          <h1 class="fw-bolder display-2 fst-italic heading2">the world</h1>
+        </div>
+      </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
