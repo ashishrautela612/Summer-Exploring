@@ -4,7 +4,9 @@
   font-family: "Open Sans", sans-serif;
   /* border: 1px solid black; */
 }
-
+body{
+    background-color: #fff;
+}
 /* navigation bar css */
 .nav-link {
   color: #54524f;
@@ -127,6 +129,38 @@
     background-color:#deb37e;
 }
 
+/* places section */
+
+.placeUpperSection h1{
+    color: #e2a355;
+    -webkit-text-stroke: 2.5px;
+    letter-spacing: 2px;
+    animation: blinker2 3s linear infinite;
+
+}
+@keyframes blinker2{
+    50%{
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+}
+
+.placeUpperSection p{
+    color: #7f7770;
+    opacity: 0.9;
+}
+
+
+.card-body{
+    background-color: rgba(131,120,112,255) !important;
+}
+.card-text{
+    font-size: 19px;
+}
+
+.card-opacity{
+    opacity: 0.9;
+}
 /* .rotateImage {
     position: absolute;
     z-index: -1;
