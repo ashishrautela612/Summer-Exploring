@@ -55,7 +55,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .homeHeadings{
     -webkit-text-stroke:2.5px;
     color: #deb37e;
@@ -144,13 +143,10 @@ body{
         -webkit-text-stroke: 2px black;
     }
 }
-
 .placeUpperSection p{
     color: #7f7770;
     opacity: 0.9;
 }
-
-
 .card-body{
     background-color: rgba(131,120,112,255) !important;
 }
@@ -161,6 +157,142 @@ body{
 .card-opacity{
     opacity: 0.9;
 }
+
+/* places read more */
+.placesReadMore{
+    background-color: rgba(131,120,112,255) !important;
+    padding: 0 3.7rem;
+    border-radius: 50px;
+    opacity: 0.9;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.5px;
+    z-index: 1;
+    position: relative;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* places read more hover */
+.placesReadMore::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: black;
+    border-radius: 50px;
+    transform: scaleY(0);
+    /* transform-origin: bottom; */
+    transition: all 0.2s ease-in-out;
+}
+.placesReadMore:hover::before{
+    transform: scaleY(1) !important;
+}
+.shadowImage{
+    bottom: -9%;
+    left: -19%;
+    opacity: 0.8;
+}
+
+.discountContainer{
+    background-color: rgba(131,120,112,255);
+    padding: 10.5rem 0rem 0rem 3.5rem;
+}
+
+.discountReadMore{
+    background: #f5a54e;
+    padding: 1rem 3.3rem;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.discountReadMore:hover{
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+}
+.offerContainer{
+    background-color: #edb47c;
+    padding: 10.5rem 0rem 0rem 10.5rem;
+}
+.hiking{
+    background-color: rgba(157, 147, 142, 255);
+    color: #dbdbdb;
+    background-image: url(../images/ShapeUp.png), url(../images/Shadow.png),url(../images/ShapeBtm.png);
+    background-repeat: no-repeat;
+    background-position: top 0 left 0, top 4rem left -19rem, bottom 0 left 0px;
+    background-size: 100%, 49rem 23rem, 100%;
+    padding-top: 13rem;
+    padding-bottom: 13rem;
+}
+.hiking p{
+    width: 59%;
+    word-break: break-all;
+}
+.explore{
+    background-image: url(../images/exploreTop.png),url(../images/explore.png),url(../images/ShapeBtm.png);
+    background-repeat: no-repeat;
+    background-size: 100%,cover,100%;
+    padding: 21rem 0;
+}
+.exploreHeadings{
+    -webkit-text-stroke: 3px;
+    text-shadow: 4px -4px 7px rgba(0,0,0,0.2);
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+ 
+.heading1{
+    color: #deb37e;
+    animation: rightse 3s infinite;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+.heading2{
+    color: #54524f;
+    animation: leftse 3s infinite;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes rightse {
+    0%{
+        right: -100%;
+    }
+    50%{
+        right: -50%;
+    }
+    100%{
+        right: 0;
+    }
+}
+@keyframes leftse {
+    0%{
+        left: -100%;
+    }
+    50%{
+        left: -50%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .rotateImage {
     position: absolute;
     z-index: -1;
