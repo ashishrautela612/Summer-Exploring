@@ -25,4 +25,32 @@
         width: 100% !important;
         text-align: left !important;
     }
+    .discountContainer,.offerContainer{
+        padding: 1rem !important;
+    }
+    .discountContainerContent p,.offerContainerContent p{
+        width: 100% !important;
+    }
+    .discountReadMore{
+        padding: 0.8rem 1.3rem;
+    }
+    .hiking{
+        background-image: none;
+        padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+    .hiking p{
+        width: 100%;
+        text-align: left !important;
+    }
+    .explore{
+        padding: 4rem 0;
+        background-image:url(../images/explore.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+    .normal{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
 }
