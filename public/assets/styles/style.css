@@ -218,6 +218,7 @@ body{
     opacity: 0.8;
 }
 
+/* offers section */
 .discountContainer{
     background-color: rgba(131,120,112,255);
     padding: 10.5rem 0rem 0rem 3.5rem !important;
@@ -239,6 +240,10 @@ body{
     background-color: #edb47c;
     padding: 10.5rem 0rem 0rem 10.5rem;
 }
+
+/* offerse section end */
+
+/* hiking section */
 .hiking{
     background-color: rgba(157, 147, 142, 255);
     color: #dbdbdb;
@@ -253,6 +258,10 @@ body{
     width: 59%;
     word-break: break-all;
 }
+
+/* hiking */
+
+/* explore world section */
 .explore{
     background-image: url(../images/exploreTop.png),url(../images/explore.png);
     background-repeat: no-repeat;
@@ -266,6 +275,7 @@ body{
     overflow: hidden;
 }
  
+/* animnation for explore world headings */
 .heading1{
     color: #deb37e;
     animation: rightse 3s infinite;
@@ -300,11 +310,13 @@ body{
         left: 0;
     }
 }
+/* animation end */
 .exploreBottom{
     bottom: 0;
     left: 0;
 }
 
+/* normal containers */
 .normal{
     border-radius: 10px;
     position: relative;
@@ -319,6 +331,7 @@ body{
     color: #333d42;
     -webkit-text-stroke: 0.3px;
 }
+/* normal containers end */
 .testimonial{
     color: #3f3f3f;
     line-height: 0 !important;
@@ -329,6 +342,8 @@ body{
     width: 56%;
     word-break: break-all;
 }
+
+/* this is css for the right shadow image but after croping the image its color is automatically changing*/
 .testimonialContainer{
     /* background-image: url(../images/ShadowRight.png);
     background-repeat: no-repeat;
@@ -343,6 +358,8 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transform: scale(1.01) ;
 }
+
+/* form section */
 .formSection{
     background-color: #edb47c;
     background-image: url(../images/exploreTop.png),url(../images/ShapeBtm.png);
@@ -371,6 +388,10 @@ body{
     letter-spacing: 3px;
 }
 
+/* form section end */
+
+
+/* footer section */
 footer{
     background-color: #837870;
     background-image: url(../images/exploreTop.png);
@@ -378,6 +399,8 @@ footer{
     background-size: 100%;
     padding: 20rem 0 11rem 0;
     font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+   z-index: 0;
 }
 .footerLeft h3,.footerRight h3{
     font-weight: 400;
@@ -395,14 +418,40 @@ footer{
 .footerRight p{
     font-size: 21px;
     font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+.footerRight p:hover{
+    color: #000;
+}
+/* footer animation */
+
+.chakraImage{
+    position: absolute;
+    z-index: -1;
+    left: 8rem;
+    top: -422px;
+    height: 100%;
+}
+.chakraImage img {
+    animation-name: spin;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: .04;
 }
 
-.wrapperBgImg{
-    background-image: url(../images/ShadowRight.png);
-    background-repeat: no-repeat;
-    right: 0;
-    top: 0;
+@keyframes spin{
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
+
+
+/* footer end */
     
 
 
