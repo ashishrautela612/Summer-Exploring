@@ -1,0 +1,70 @@
+@media (min-width:600px) and (max-width:1000px) {
+    .tabPadding{
+       padding-top: 7rem !important; 
+    }
+    .headingsFontTab{
+        font-size: 2rem !important; 
+    }
+    .landingPage{
+        background-size: 100% 100%;        
+    }
+    .homeHeadings h1{
+            font-size: 2.5rem;
+    }
+    .placeUpperSection p{
+        width: 94% !important;
+    }
+    .placesReadMore{
+        padding: 0 1.7rem;
+    }
+    .discountContainer{
+        padding: 0 !important;
+        padding-left: 1rem !important;
+    }
+    .offerContainer{
+        padding: 0 !important;
+        padding-left: 3rem !important;
+    }
+    .discountReadMore{
+        padding: 0.5rem 1.7rem;
+    }
+    .discountContainerContent p,.offerContainerContent p{
+        font-size: 1.2rem !important;
+    }
+    .explore{
+        padding: 11rem 0;
+    }
+    .testimonial img {
+        display: none;
+    }
+    .formSection,footer{
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    .form-container{
+         width: 75%;
+    }
+    .footerLeft p{
+        width: 100% !important;
+    }
+}
+@media (min-width:1001px) and (max-width:1030px) {
+    .discountContainer{
+        padding: 0 !important;
+        padding-left: 1rem !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .offerContainer{
+        padding: 0 !important;
+        padding-left: 3rem !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .discountReadMore{
+        padding: 0.5rem 1.7rem;
+    }
+    .discountContainerContent p,.offerContainerContent p{
+        font-size: 1.2rem !important;
+    }
+}

@@ -1,0 +1,28 @@
+@media (max-width:460px){
+    .main{
+        border: 1px solid black;
+    }
+    .landingPage{
+        background-size: cover;  
+        background-position: top 0rem right -15rem;  
+    }
+    .shapeBottom{
+        display: none;
+    }
+    .homeSection{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .homeReadMore{
+        background-color:#deb37e;
+    }
+    .shapeContainer{
+        display: none;
+    }
+    .card{
+        width: 100% !important;
+    }
+    .placeUpperSection p{
+        width: 100% !important;
+        text-align: left !important;
+    }
+}
