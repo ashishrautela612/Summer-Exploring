@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   font-family: "Open Sans", sans-serif;
   /* border: 1px solid black; */
@@ -12,6 +12,21 @@ body{
   color: #54524f;
   letter-spacing: 3px;
   position: relative;
+}
+
+.searchIcon{
+    background-color: #c6c0bd;
+    display: flex;
+    align-items: center;
+    padding-right: 1.7rem;
+    padding-left: 6.7rem;
+    border-radius: 22px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+.searchIcon img{
+    opacity: 0.9;
 }
 
 /* hover for nav items */
@@ -142,6 +157,13 @@ body{
         color: transparent;
         -webkit-text-stroke: 2px black;
     }
+}
+.card{
+    transition: all 0.45s ease-in-out;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translateY(-20px);
 }
 .placeUpperSection p{
     color: #7f7770;
@@ -288,6 +310,7 @@ body{
     position: relative;
     z-index: 1;
     transition: all 0.45s ease-in-out;
+    cursor: pointer;
 }
 .normal h3{
     color: #deb37e;
@@ -307,10 +330,14 @@ body{
     word-break: break-all;
 }
 .testimonialContainer{
-    background-image: url(../images/ShadowRight.png);
+    /* background-image: url(../images/ShadowRight.png);
     background-repeat: no-repeat;
     background-size: 42rem 39rem;
-    background-position: bottom -13rem right -11rem;
+    background-position: bottom -13rem right -11rem; */
+}
+.leafImage{
+    /* top: 5rem;
+    right: -43rem; */
 }
 .normal:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -342,6 +369,32 @@ body{
     background-color: #54514e;
     border-radius: 50px;
     letter-spacing: 3px;
+}
+
+footer{
+    background-color: #837870;
+    background-image: url(../images/exploreTop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20rem 0 11rem 0;
+    font-family: "Montserrat", sans-serif;
+}
+.footerLeft h3,.footerRight h3{
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.footerLeft p{
+    font-size: 22px;
+    word-break: break-all;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+
+}
+.footerRight p{
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
 }
     
 
