@@ -58,6 +58,10 @@
     }
     .normal{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left:1rem;
+    }
+    .nRow{
+            --bs-gutter-x:0 !important;
     }
     .testimonial p{
         width: 100%;
