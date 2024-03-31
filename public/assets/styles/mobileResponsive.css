@@ -1,6 +1,10 @@
 @media (max-width:460px){
     .main{
         border: 1px solid black;
+
+    }
+    .navbar-brand img {
+        width: 70%;
     }
     .landingPage{
         background-size: cover;  
@@ -8,6 +12,9 @@
     }
     .shapeBottom{
         display: none;
+    }
+    .homeSectionContent {
+        padding-top: 7rem;
     }
     .homeSection{
         background-color: rgba(0, 0, 0, 0.8);
@@ -51,6 +58,50 @@
     }
     .normal{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .testimonial p{
+        width: 100%;
+    }
+    .formSection{
+      background-image: none;
+      padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+    .formContent p {
+        width: 100%;
+        text-align: left !important;
+    }
+    .input-container{
+        
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    }
+    .subscribe-btn{
+        margin: auto;
+    }
+    .form-container{
+        background: none !important;
+        border-radius: 0;
+    }
+    footer{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .footerLeft p{
+        width: 100% !important;
+    }
+    .footerRight{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
 
+    .footerRight > div > h3{
+        color: black !important;
+    }
+    .input-container input{
+        /* display: none; */
     }
 }
