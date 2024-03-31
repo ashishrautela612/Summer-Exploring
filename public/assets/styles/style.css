@@ -316,6 +316,34 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transform: scale(1.01) ;
 }
+.formSection{
+    background-color: #edb47c;
+    background-image: url(../images/exploreTop.png),url(../images/ShapeBtm.png);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-position: top 0 left 0,bottom 0 left 0;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+
+}
+.formContent p{
+    color: #54524f;
+    width: 65%;
+}
+.form-container{
+    background-color: #fff;
+    border-radius: 50px;
+    width: 55%;
+}
+.input-container input{
+    border-radius: 50px;
+}
+.input-container button{
+    background-color: #54514e;
+    border-radius: 50px;
+    letter-spacing: 3px;
+}
+    
 
 
 
