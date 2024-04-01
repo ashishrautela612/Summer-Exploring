@@ -9,8 +9,8 @@ body{
 }
 /* navigation bar css */
 
- .navbar{
-    animation: scalee 2s;
+ .navbar,.homeReadMore{
+    animation: scalee 2s ease-out;
     animation-iteration-count: 1;
     transform: scale(0);
     animation-fill-mode: forwards;
@@ -269,17 +269,57 @@ body{
 }
 
 .discountReadMore{
+    background-color: #f5a54e;
+    padding: 1rem 3.3rem;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.discountReadMore {
     background: #f5a54e;
     padding: 1rem 3.3rem;
     border-radius: 50px;
     letter-spacing: 5px;
     transition: all 0.2s ease-in-out;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Added overflow: hidden to prevent overflow of pseudo-elements */
 }
-.discountReadMore:hover{
+
+.discountReadMore::after,
+.discountReadMore::before {
+    position: absolute;
+    content: "";
     background-color: black;
-    border-radius: 0;
-    border: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    transform: scale(0);
+    border-radius: 50px;
+    z-index: -5;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.5; 
+    transform-origin: center;
 }
+
+.discountReadMore::before{
+    transition-delay: 0.2s;
+}
+
+.discountReadMore:hover::after,
+.discountReadMore:hover::before
+  {
+    /* top: 0; */
+    transform: scale(1);
+   
+ }
+
 .offerContainer{
     background-color: #edb47c;
     padding: 10.5rem 0rem 0rem 10.5rem;
@@ -430,6 +470,10 @@ body{
     background-color: #54514e;
     border-radius: 50px;
     letter-spacing: 3px;
+}
+.subscribe-btn:hover{
+    color: white;
+    background-color: #000;
 }
 
 /* form section end */
