@@ -1,7 +1,6 @@
 @media (max-width:550px){
-    .main{
-        border: 1px solid black;
-
+    .navbar{
+        background-color: #deb37e !important;
     }
     .navbar-brand img {
         width: 70%;
