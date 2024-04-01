@@ -49,18 +49,7 @@
     }
 }
 
-@media (min-width:550px) and (max-width:767px) {
-    .landingPage{
-        background-size: 100% 100%;        
-    }
-    .discountContainer,.offerContainer {
-        padding: 4.5rem 0rem 4.5rem 3.5rem !important;
-    }
-    .card{
-        width: 100% !important;
-    }
  
-}
 @media (min-width:1001px) and (max-width:1030px) {
     .discountContainer{
         padding: 0 !important;
