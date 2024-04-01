@@ -536,50 +536,5 @@ footer{
         transform: rotate(360deg);
     }
 }
-
-
-
 /* footer end */
     
-
-
-
-
-
-
-
-
-
-
-
-
-/* .rotateImage {
-    position: absolute;
-    z-index: -1;
-    width: 100% !important;
-    height: 100%;
-    text-align: center;
-    left: 0;
-    top: -570px;
-}
-
-.rotateImage img {
-    animation-name: spin;
-    animation-duration: 200s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    opacity: .04;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-    
-    
-    
-    
-} */
